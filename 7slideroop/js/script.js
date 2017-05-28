@@ -8,6 +8,7 @@ window.onload = function () {
 		slider.next();
 	}
 	var images2 = document.querySelectorAll('.gallery-2 .photos img');
+	// create second slider
 	var slider2 = new Slider(images2);
 	setInterval(function () {
 			slider2.next()
